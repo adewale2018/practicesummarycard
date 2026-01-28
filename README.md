@@ -4,8 +4,8 @@
 
  **Clone and install:**
 ```bash
-git clone https://github.com/adewale2018/mini_wallet.git
-cd mini_wallet
+git clone https://github.com/adewale2018/practicesummarycard
+cd practicesummarycard
 npm install
 npm run dev to start the application
 
