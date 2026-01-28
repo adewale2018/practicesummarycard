@@ -1,5 +1,14 @@
 # Practice Summary Card
 
+## Setup Instructions
+
+ **Clone and install:**
+```bash
+git clone https://github.com/adewale2018/practicesummarycard
+cd practicesummarycard
+npm install
+npm run dev to start the application
+
 ## Component and Styling Decision;
 - Components are broken down into re-usable;
 - TailwindCSS is used because it is modern and makes styling unique
