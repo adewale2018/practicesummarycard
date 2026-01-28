@@ -1,10 +1,13 @@
-
+import SummaryCard from "./SummaryCard";
+import { dentistsData } from "./mockData";
 function App() {
   return (
-    <>
-     <h1 className="text-center text-6xl mt-10 font-medium">DentistFind Task</h1> 
-    </>
-  )
+    <section className="flex justify-center gap-4 flex-wrap mt-10 p-4">
+      {dentistsData.map((dentist) => (
+        <SummaryCard key={dentist.id} {...dentist} />
+      ))}
+    </section>
+  );
 }
 
-export default App
+export default App;
